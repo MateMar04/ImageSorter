@@ -47,7 +47,7 @@ class ImageFile:
         try:
             shutil.move(self.image_path, dst_dir, copy_function=shutil.copy2)
         except:
-            pass
+            os.remove(self.image_path)
 
     def generate_name(self, file_name):
         default_date = "9999:12:31 23:59:59"
