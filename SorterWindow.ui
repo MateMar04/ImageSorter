@@ -22,6 +22,12 @@
                 <height>390</height>
             </size>
         </property>
+        <property name="font">
+            <font>
+                <family>Roboto</family>
+                <pointsize>10</pointsize>
+            </font>
+        </property>
         <property name="windowTitle">
             <string>MainWindow</string>
         </property>
@@ -49,6 +55,13 @@
                                     <width>700</width>
                                     <height>59</height>
                                 </size>
+                            </property>
+                            <property name="font">
+                                <font>
+                                    <family>Roboto</family>
+                                    <pointsize>15</pointsize>
+                                    <bold>true</bold>
+                                </font>
                             </property>
                             <property name="text">
                                 <string>ORDENADOR DE FOTOS</string>

@@ -3,26 +3,29 @@
 ################################################################################
 ## Form generated from reading UI file 'SorterWindow.ui'
 ##
-## Created by: Qt User Interface Compiler version 5.15.2
+## Created by: Qt User Interface Compiler version 6.4.2
 ##
 ## WARNING! All changes made in this file will be lost when recompiling UI file!
 ################################################################################
 
-from PySide6.QtCore import *
-from PySide6.QtGui import *
-from PySide6.QtWidgets import *
+from PySide6.QtCore import (QCoreApplication, QMetaObject, QRect,
+                            QSize, Qt)
+from PySide6.QtGui import (QFont)
+from PySide6.QtWidgets import (QHBoxLayout, QLabel, QProgressBar, QPushButton, QStatusBar,
+                               QVBoxLayout, QWidget)
 
 
 class Ui_MainWindow(object):
-    def __init__(self):
-        self.lb = None
-
     def setupUi(self, MainWindow):
         if not MainWindow.objectName():
             MainWindow.setObjectName(u"MainWindow")
         MainWindow.resize(700, 390)
         MainWindow.setMinimumSize(QSize(700, 390))
         MainWindow.setMaximumSize(QSize(700, 390))
+        font = QFont()
+        font.setFamilies([u"Roboto"])
+        font.setPointSize(10)
+        MainWindow.setFont(font)
         self.centralwidget = QWidget(MainWindow)
         self.centralwidget.setObjectName(u"centralwidget")
         self.verticalLayoutWidget = QWidget(self.centralwidget)
@@ -35,6 +38,11 @@ class Ui_MainWindow(object):
         self.label.setObjectName(u"label")
         self.label.setMinimumSize(QSize(700, 0))
         self.label.setMaximumSize(QSize(700, 59))
+        font1 = QFont()
+        font1.setFamilies([u"Roboto"])
+        font1.setPointSize(15)
+        font1.setBold(True)
+        self.label.setFont(font1)
         self.label.setTextFormat(Qt.AutoText)
         self.label.setAlignment(Qt.AlignCenter)
 
