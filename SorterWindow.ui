@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+    <class>MainWindow</class>
+    <widget class="QMainWindow" name="MainWindow">
+        <property name="geometry">
+            <rect>
+                <x>0</x>
+                <y>0</y>
+                <width>700</width>
+                <height>390</height>
+            </rect>
+        </property>
+        <property name="minimumSize">
+            <size>
+                <width>700</width>
+                <height>390</height>
+            </size>
+        </property>
+        <property name="maximumSize">
+            <size>
+                <width>700</width>
+                <height>390</height>
+            </size>
+        </property>
+        <property name="windowTitle">
+            <string>MainWindow</string>
+        </property>
+        <widget class="QWidget" name="centralwidget">
+            <widget class="QWidget" name="verticalLayoutWidget">
+                <property name="geometry">
+                    <rect>
+                        <x>0</x>
+                        <y>0</y>
+                        <width>702</width>
+                        <height>365</height>
+                    </rect>
+                </property>
+                <layout class="QVBoxLayout" name="verticalLayout">
+                    <item>
+                        <widget class="QLabel" name="label">
+                            <property name="minimumSize">
+                                <size>
+                                    <width>700</width>
+                                    <height>0</height>
+                                </size>
+                            </property>
+                            <property name="maximumSize">
+                                <size>
+                                    <width>700</width>
+                                    <height>59</height>
+                                </size>
+                            </property>
+                            <property name="text">
+                                <string>ORDENADOR DE FOTOS</string>
+                            </property>
+                            <property name="textFormat">
+                                <enum>Qt::AutoText</enum>
+                            </property>
+                            <property name="alignment">
+                                <set>Qt::AlignCenter</set>
+                            </property>
+                        </widget>
+                    </item>
+                    <item>
+                        <layout class="QVBoxLayout" name="verticalLayout_2">
+                            <item>
+                                <layout class="QHBoxLayout" name="horizontalLayout">
+                                    <item>
+                                        <layout class="QHBoxLayout" name="horizontalLayout_2">
+                                            <item>
+                                                <widget class="QPushButton" name="pb_src_dir">
+                                                    <property name="maximumSize">
+                                                        <size>
+                                                            <width>200</width>
+                                                            <height>16777215</height>
+                                                        </size>
+                                                    </property>
+                                                    <property name="text">
+                                                        <string>Select Source Directory</string>
+                                                    </property>
+                                                </widget>
+                                            </item>
+                                            <item>
+                                                <widget class="QLabel" name="lb_src_dir">
+                                                    <property name="minimumSize">
+                                                        <size>
+                                                            <width>0</width>
+                                                            <height>30</height>
+                                                        </size>
+                                                    </property>
+                                                    <property name="text">
+                                                        <string>...</string>
+                                                    </property>
+                                                </widget>
+                                            </item>
+                                        </layout>
+                                    </item>
+                                </layout>
+                            </item>
+                            <item>
+                                <layout class="QHBoxLayout" name="horizontalLayout_3">
+                                    <item>
+                                        <widget class="QPushButton" name="pb_dst_dir">
+                                            <property name="maximumSize">
+                                                <size>
+                                                    <width>200</width>
+                                                    <height>16777215</height>
+                                                </size>
+                                            </property>
+                                            <property name="text">
+                                                <string>Select Destination Directory</string>
+                                            </property>
+                                        </widget>
+                                    </item>
+                                    <item>
+                                        <widget class="QLabel" name="lb_dst_dir">
+                                            <property name="minimumSize">
+                                                <size>
+                                                    <width>0</width>
+                                                    <height>30</height>
+                                                </size>
+                                            </property>
+                                            <property name="text">
+                                                <string>...</string>
+                                            </property>
+                                        </widget>
+                                    </item>
+                                </layout>
+                            </item>
+                            <item>
+                                <widget class="QPushButton" name="pb_go">
+                                    <property name="text">
+                                        <string>GO</string>
+                                    </property>
+                                </widget>
+                            </item>
+                        </layout>
+                    </item>
+                    <item>
+                        <layout class="QVBoxLayout" name="verticalLayout_3">
+                            <item>
+                                <layout class="QHBoxLayout" name="horizontalLayout_4">
+                                    <item>
+                                        <widget class="QLabel" name="label_4">
+                                            <property name="minimumSize">
+                                                <size>
+                                                    <width>0</width>
+                                                    <height>30</height>
+                                                </size>
+                                            </property>
+                                            <property name="text">
+                                                <string>Progress</string>
+                                            </property>
+                                        </widget>
+                                    </item>
+                                    <item>
+                                        <widget class="QProgressBar" name="progressBar">
+                                            <property name="value">
+                                                <number>0</number>
+                                            </property>
+                                        </widget>
+                                    </item>
+                                </layout>
+                            </item>
+                            <item>
+                                <layout class="QHBoxLayout" name="horizontalLayout_5">
+                                    <property name="spacing">
+                                        <number>0</number>
+                                    </property>
+                                    <item>
+                                        <widget class="QLabel" name="lb_current_number">
+                                            <property name="minimumSize">
+                                                <size>
+                                                    <width>0</width>
+                                                    <height>10</height>
+                                                </size>
+                                            </property>
+                                            <property name="maximumSize">
+                                                <size>
+                                                    <width>150</width>
+                                                    <height>30</height>
+                                                </size>
+                                            </property>
+                                            <property name="text">
+                                                <string>...</string>
+                                            </property>
+                                            <property name="alignment">
+                                                <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                                            </property>
+                                        </widget>
+                                    </item>
+                                    <item>
+                                        <widget class="QLabel" name="label_6">
+                                            <property name="maximumSize">
+                                                <size>
+                                                    <width>10</width>
+                                                    <height>30</height>
+                                                </size>
+                                            </property>
+                                            <property name="text">
+                                                <string>/</string>
+                                            </property>
+                                        </widget>
+                                    </item>
+                                    <item>
+                                        <widget class="QLabel" name="lb_total_number">
+                                            <property name="maximumSize">
+                                                <size>
+                                                    <width>150</width>
+                                                    <height>30</height>
+                                                </size>
+                                            </property>
+                                            <property name="text">
+                                                <string>...</string>
+                                            </property>
+                                        </widget>
+                                    </item>
+                                </layout>
+                            </item>
+                        </layout>
+                    </item>
+                </layout>
+            </widget>
+        </widget>
+        <widget class="QStatusBar" name="statusbar"/>
+    </widget>
+    <resources/>
+    <connections>
+        <connection>
+            <sender>pb_src_dir</sender>
+            <signal>clicked()</signal>
+            <receiver>MainWindow</receiver>
+            <slot>src_dir_slot()</slot>
+            <hints>
+                <hint type="sourcelabel">
+                    <x>155</x>
+                    <y>86</y>
+                </hint>
+                <hint type="destinationlabel">
+                    <x>161</x>
+                    <y>164</y>
+                </hint>
+            </hints>
+        </connection>
+        <connection>
+            <sender>pb_dst_dir</sender>
+            <signal>clicked()</signal>
+            <receiver>MainWindow</receiver>
+            <slot>dst_dir_slot()</slot>
+            <hints>
+                <hint type="sourcelabel">
+                    <x>42</x>
+                    <y>154</y>
+                </hint>
+                <hint type="destinationlabel">
+                    <x>65</x>
+                    <y>198</y>
+                </hint>
+            </hints>
+        </connection>
+        <connection>
+            <sender>progressBar</sender>
+            <signal>valueChanged(int)</signal>
+            <receiver>MainWindow</receiver>
+            <slot>progress_changed_slot()</slot>
+            <hints>
+                <hint type="sourcelabel">
+                    <x>341</x>
+                    <y>265</y>
+                </hint>
+                <hint type="destinationlabel">
+                    <x>279</x>
+                    <y>259</y>
+                </hint>
+            </hints>
+        </connection>
+        <connection>
+            <sender>pb_go</sender>
+            <signal>clicked()</signal>
+            <receiver>MainWindow</receiver>
+            <slot>go_slot()</slot>
+            <hints>
+                <hint type="sourcelabel">
+                    <x>330</x>
+                    <y>201</y>
+                </hint>
+                <hint type="destinationlabel">
+                    <x>333</x>
+                    <y>236</y>
+                </hint>
+            </hints>
+        </connection>
+    </connections>
+    <slots>
+        <slot>src_dir_slot()</slot>
+        <slot>dst_dir_slot()</slot>
+        <slot>progress_changed_slot()</slot>
+        <slot>go_slot()</slot>
+    </slots>
+</ui>
