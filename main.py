@@ -3,10 +3,9 @@ import sys
 from tkinter import *
 from tkinter import filedialog
 
+from ImageFile import ImageFile
 from PySide6.QtCore import Slot
 from PySide6.QtWidgets import QMainWindow, QApplication
-
-from ImageFile import ImageFile
 from SorterWindow import Ui_MainWindow
 
 
